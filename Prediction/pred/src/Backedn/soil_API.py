@@ -31,8 +31,7 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 # Twilio credentials (replace with your actual info or use environment variables)
-TWILIO_SID = 'AC6c0dd576d5374723ffc9ee70cb9c133c'
-TWILIO_AUTH_TOKEN = '3a204cea6cffeed8fd65560874e94add'
+
 TWILIO_WHATSAPP_FROM = 'whatsapp:+14155238886'  # Twilio Sandbox number
 USER_WHATSAPP_TO = 'whatsapp:+919717014460'     # Replace with verified WhatsApp number
 # --- Groq Cloud Setup (LLaMA 3) ---
