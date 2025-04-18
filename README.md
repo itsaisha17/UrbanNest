@@ -164,6 +164,4 @@ vectorctrl/
 
 > “Let rooftops bloom with intelligence — the future of food is just above us.” 🌞🌾
 ```
-
----
 https://github.com/itsaisha17/UrbanNest.git
