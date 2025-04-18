@@ -92,7 +92,7 @@ UrbanNest is an AI-powered terrace farming system that tackles urban food insecu
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/vectorctrl.git  
+   git clone https://github.com/itsaisha17/UrbanNest.git 
    cd vectorctrl  
    ```
 
@@ -166,4 +166,4 @@ vectorctrl/
 ```
 
 ---
-
+https://github.com/itsaisha17/UrbanNest.git
