@@ -1,11 +1,17 @@
 
----
+<h1 align="center">
+  🌿 VectorCTRL — UrbanNest
+</h1>
+<h3 align="center">
+  Transforming Urban Spaces into Self-Sustaining Organic Food Production Hubs
+</h3>
 
-```markdown
-# VectorCTRL 🌿⚙️  
-**Transforming Urban Spaces into Self-Sustaining Organic Food Production Hubs**  
-
-UrbanNest is an AI-powered terrace farming system that tackles urban food insecurity, promotes environmental sustainability, and boosts climate resilience. By leveraging AI, IoT, and adaptive solar energy, we enable households, businesses, and communities to grow organic produce on unused rooftops.
+<p align="center">
+  <img src="https://img.shields.io/badge/IoT-Enabled-green?style=flat-square&logo=raspberrypi">
+  <img src="https://img.shields.io/badge/AI%20powered-yes-blue?style=flat-square&logo=python">
+  <img src="https://img.shields.io/badge/Status-Prototype-yellow?style=flat-square">
+  <img src="https://img.shields.io/github/license/itsaisha17/UrbanNest?style=flat-square">
+</p>
 
 ---
 
@@ -23,7 +29,7 @@ UrbanNest is an AI-powered terrace farming system that tackles urban food insecu
 
 ## 📌 Overview  
 
-**UrbanNest** addresses key urban challenges by transforming rooftops into intelligent, self-sustaining organic farms. With smart monitoring, automation, and AI insights, we reduce reliance on external food systems and support greener living.
+**UrbanNest** is an AI-powered terrace farming solution that tackles food insecurity, environmental degradation, and urban inaccessibility to fresh produce. By integrating AI, IoT sensors, and solar energy, it empowers users to convert rooftops into intelligent, organic food production hubs.
 
 > 🌱 Grow smarter. Eat fresher. Live greener.
 
@@ -31,106 +37,110 @@ UrbanNest is an AI-powered terrace farming system that tackles urban food insecu
 
 ## ⚙️ Features  
 
-- **Smart Sensor Integration**  
+- 🔍 **Smart Sensor Integration**  
   Real-time monitoring of soil moisture, temperature, humidity, CO₂, pH, and turbidity.
 
-- **Predictive Water & Disinfection Management**  
-  AI-optimized irrigation and UV-C-based water disinfection for resource efficiency.
+- 💧 **Predictive Water & Disinfection Management**  
+  AI-optimized irrigation and UV-C-based disinfection for efficient water usage.
 
-- **AI Plant Health Monitoring**  
-  Camera + AI combo to detect plant diseases and nutrient deficiencies.
+- 🌿 **AI Plant Health Monitoring**  
+  Detect diseases and nutrient issues via camera + AI model.
 
-- **Adaptive Solar Energy System**  
-  Sun-tracking solar panels to power the system sustainably.
+- 🔋 **Adaptive Solar Energy System**  
+  Sun-tracking panels for sustainable energy usage.
 
-- **User-Friendly Dashboard**  
-  Web/mobile UI to monitor and control your rooftop farm.
+- 📊 **User-Friendly Dashboard**  
+  Web/mobile UI to visualize data and manage farms.
 
-- **AI Chatbot**  
-  Personalized farming assistant for all levels of growers.
+- 🤖 **AI Chatbot**  
+  Personalized farming assistant for growers of all levels.
 
-- **Organic Waste Recycling**  
-  Tools and guidance for turning kitchen waste into natural fertilizer.
+- ♻️ **Organic Waste Recycling**  
+  Integrated composting and waste reuse guidance.
 
 ---
 
 ## 🏡 Use Cases  
 
-- **Households**: Grow organic veggies at home effortlessly.  
-- **Restaurants & Food Chains**: Ensure a steady, local supply of pesticide-free greens.  
-- **Communities & Schools**: Encourage food security and sustainability education.  
-- **Smart Cities**: Integrate with urban systems to reduce carbon footprints.
+- 👨‍👩‍👧‍👦 **Households** – Grow organic vegetables with zero pesticides.  
+- 🍽️ **Restaurants & Cafés** – Own fresh, in-house supply of herbs and greens.  
+- 🏫 **Schools & Communities** – Educational and sustainable farming spaces.  
+- 🏙️ **Smart Cities** – Scalable model for green urban development.
 
 ---
 
 ## 🧠 Technologies Used  
 
-### 🔧 Software  
+### 🔧 Software Stack  
 - **Frontend**: React, TailwindCSS  
 - **Backend**: FastAPI  
-- **Realtime DB & Auth**: Google Firebase  
+- **Realtime DB & Auth**: Firebase  
 - **AI/ML**: OpenCV, Llama 3.2 90b, CNN, LSTM  
-- **APIs**: OpenWeatherAPI
+- **APIs**: OpenWeatherAPI  
 
-### 🔌 Hardware  
+### ⚙️ Hardware Stack  
 - **Microcontrollers**: Raspberry Pi, ESP8266  
-- **Sensors**: MG-811 (CO₂), DH-22 (Temp/Humidity), Soil Moisture, pH, Turbidity  
+- **Sensors**: MG-811 (CO₂), DHT-22 (Temp/Humidity), pH, Turbidity, Soil Moisture  
 - **Actuators**: Servo Motors  
 - **Disinfection**: UV-LEDs  
-- **Power**: Adaptive Solar Panels
+- **Power Supply**: Adaptive Sun-Tracking Solar Panels
 
 ---
 
 ## 🚀 Getting Started  
 
-### 🔧 Prerequisites  
+### 📦 Prerequisites  
 - Node.js  
 - Python 3.8+  
-- Raspberry Pi OS (for hardware integration)
+- Raspberry Pi OS  
 
-### 🔨 Installation  
+### 🛠️ Installation Steps
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/itsaisha17/UrbanNest.git 
-   cd vectorctrl  
-   ```
+```bash
+# Clone the Repository
+git clone https://github.com/itsaisha17/UrbanNest.git
+cd UrbanNest
+````
 
-2. **Backend Setup**  
-   ```bash
-   cd backend  
-   pip install -r requirements.txt  
-   ```
+#### 🧠 Backend Setup
 
-3. **Frontend Setup**  
-   ```bash
-   cd ../frontend  
-   npm install  
-   ```
+```bash
+cd backend
+pip install -r requirements.txt
+```
 
-4. **Environment Variables**  
-   Copy `.env.example` to `.env` and fill in the necessary API keys (Firebase, OpenWeather, etc.)
+#### 🎨 Frontend Setup
 
-5. **Run the Application**  
-   - Backend  
-     ```bash
-     python manage.py runserver  
-     ```  
-   - Frontend  
-     ```bash
-     npm start  
-     ```
+```bash
+cd ../frontend
+npm install
+```
 
-6. **Hardware Setup**  
-   - Connect sensors and actuators as per the [System Architecture](#system-architecture)  
-   - Flash microcontroller code from `hardware/` directory
+#### ⚙️ Environment Variables
+
+Copy `.env.example` to `.env` and update with your Firebase & OpenWeather API keys.
+
+#### 🚦 Running the App
+
+```bash
+# Backend
+python manage.py runserver
+
+# Frontend
+npm start
+```
+
+#### 🔌 Hardware Setup
+
+* Connect sensors and actuators as per [System Architecture](#system-architecture).
+* Flash microcontroller scripts from `hardware/`.
 
 ---
 
-## 🧭 System Architecture  
+## 🧭 System Architecture
 
 ```
-vectorctrl/
+UrbanNest/
 ├── backend/
 │   ├── api/
 │   ├── ml_models/
@@ -144,24 +154,42 @@ vectorctrl/
 └── docs/
 ```
 
-### 🔁 Data Flow  
-1. Sensors capture soil, climate, and water data.  
-2. Microcontrollers transmit data to the backend.  
-3. AI models analyze and recommend actions.  
-4. User dashboard and chatbot provide insights and control.  
-5. Automation + solar system manage maintenance and energy.
+### 🔁 Data Flow
+
+1. Sensors collect environmental + soil data.
+2. Microcontrollers push data to backend APIs.
+3. AI/ML modules process and return smart decisions.
+4. UI displays insights; chatbot assists user.
+5. Solar panel system powers components intelligently.
 
 ---
 
-## 👥 Team  
+## 👥 Team
 
-- **Ayesha Bhatt** – AI/ML, IOT, BACKEND  
-- **Vaishnavi** –  UI/UX,Frontend Developer & Research Analyst  
+| Member           | Role                                  |
+| ---------------- | ------------------------------------- |
+| **Ayesha Bhatt** | AI/ML, IoT Integration, Backend Lead  |
+| **Vaishnavi**    | UI/UX, Frontend Dev, Research Analyst |
 
 ---
 
+## 📜 License
 
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
 
 > “Let rooftops bloom with intelligence — the future of food is just above us.” 🌞🌾
+
 ```
-https://github.com/itsaisha17/UrbanNest.git
+
+---
+
+### 🔧 Suggestions for You:
+
+- Add visuals: Upload and embed screenshots or a GIF demo under a `📸 Screenshots` section.
+- Pin this repo on your GitHub profile.
+- Add relevant topics/tags in the repo settings like `AI`, `IoT`, `Urban Farming`, `Smart Agriculture`.
+
+Want me to make a custom banner for the top? Or embed a walkthrough video link if you have one? Let me know!
+```
